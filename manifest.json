@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Webwork autoparenthesis",
+  "version": "1.0",
+  "description": "Adds a parenthesis when user types open parenthesis",
+  "content_scripts": [
+    {
+      "js": ["contentScript.js"]
+    }
+  ]
+}
